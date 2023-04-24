@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 5vh 10vw;
+}
+
+h1 {
+    margin-bottom: 10vh;
+}
+
+.add-task {
+    margin-bottom: 10vh;
+}
+
+.input-task {
+    padding: 13px 20px;
+    border: 1px solid rgb(234, 231, 231);
+    cursor: pointer;
+}
+
+.add-button {
+    padding: 15px 30px;
+    background-color: rgb(247, 204, 151);
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 3vh;
+}
+
+.no-tasks {
+    margin-bottom: 3vh;
+}
+
+.no-tasks__title {
+    font-size: 20px;
+    color: rgb(191, 191, 191);
+    text-align: center;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+    padding: 15px 30px;
+    border: 1px solid rgb(234, 231, 231);
+}
+
+.clear {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 3vh;
+}
+
+.btn-clear {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(191, 191, 191);
+    border: none;
+}
